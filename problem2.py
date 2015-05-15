@@ -7,6 +7,7 @@ def fib_sum(n):
         a = b - a
         if b % 2 == 0:
             sum = sum + b
-    print (sum)
+    return sum
 
-fib_sum(4000000)
+result = fib_sum(4000000)
+print(result)
